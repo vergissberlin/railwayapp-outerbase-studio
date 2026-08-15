@@ -6,6 +6,41 @@ Deploy Outerbase Studio on Railway with one click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/REPLACE_WITH_RAILWAY_TEMPLATE_CODE?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
+# Deploy and Host Outerbase Studio on Railway
+
+Outerbase Studio is a lightweight, open-source database GUI that runs in your browser and connects
+to Postgres, MySQL, and SQLite. This template packages the community-maintained
+`chewcw/outerbase-studio` Docker image so you can deploy a working instance on Railway in a single
+click, without installing a desktop database client or managing a server yourself.
+
+## About Hosting Outerbase Studio
+
+Outerbase Studio serves its UI from a single container and connects to your databases directly
+from the browser session. Hosting it on Railway means Railway builds the Docker image, terminates
+TLS on a public domain, and keeps the container restarted and healthy — you only manage the
+database connections you add inside the app.
+
+## Why Deploy Outerbase Studio on Railway
+
+* **Zero infrastructure management** — no VM or Docker host to patch or size
+* **Instant HTTPS** — Railway issues a public domain with TLS out of the box
+* **Basic-auth gate included** — `STUDIO_USER`/`STUDIO_PASSWORD` keep the public domain from being wide open
+* **Automatic rebuilds** — Renovate keeps the pinned upstream image current, Railway redeploys on push
+* **Team access** — invite teammates to the same Railway project instead of sharing local installs
+
+## Common Use Cases
+
+* A lightweight, browser-based SQL client for a database already running on Railway
+* Giving a small team shared query access without installing a desktop SQL client each
+* Ad-hoc data exploration and debugging against Postgres, MySQL, or SQLite
+* A disposable database GUI you can spin up per project instead of a shared, long-lived instance
+
+## Dependencies for Outerbase Studio
+
+* The community `chewcw/outerbase-studio` Docker image (pinned tag, see `Dockerfile`)
+* `STUDIO_USER` and `STUDIO_PASSWORD` environment variables for basic auth
+* Network access to whichever databases you connect to from within the app
+
 ## ✨ Features
 
 * Outerbase Studio on Railway with a Dockerfile build
