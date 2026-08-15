@@ -29,12 +29,8 @@ STUDIO_USER=admin
 STUDIO_PASSWORD=changeme
 ```
 
-Set real credentials as Railway variables, never in a file inside this repository.
-
-### Optional
-
-* `PORT`: HTTP port Outerbase Studio binds to (default: `3000`). Railway sets this for you;
-  leave it alone unless you also change the domain's target port.
+Set real credentials as Railway variables, never in a file inside this repository. Confirmed on a
+live deployment: the container refuses to start (or crash-loops) without these two set.
 
 ## 💾 Persistence
 
@@ -46,11 +42,12 @@ path before production traffic, otherwise all data is lost on every redeploy.
 This template uses the community-maintained [`chewcw/outerbase-studio`](https://hub.docker.com/r/chewcw/outerbase-studio)
 image (pinned at `v0.9.2`), because the upstream [outerbase/studio](https://github.com/outerbase/studio)
 project has no official Docker image yet ([tracking discussion](https://github.com/outerbase/studio/discussions/443)).
-Two details are unverified against primary-source documentation and should be confirmed on first deploy:
 
-* `STUDIO_USER` / `STUDIO_PASSWORD` are the env vars this image is reported to require for basic
-  auth — check the deploy logs if the container fails to start.
-* `/app/data` is a precautionary mount path; it is not confirmed that the image persists anything there.
+* The image ignores `$PORT` and always binds to `8080` internally, regardless of what Railway
+  sets — confirmed on a live deployment. This is harmless: Railway's proxy auto-detects the
+  listening port, so the generated domain still routes correctly with no `startCommand` needed.
+* `/app/data` is a precautionary mount path; it is not confirmed that the image persists anything
+  there, since Outerbase Studio normally keeps connections in the browser rather than server-side.
 
 ## 🐳 Local Development
 
@@ -61,7 +58,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-Then open http://localhost:3000.
+Then open http://localhost:3000 (mapped to the container's internal port 8080).
 
 ## 🪲 Bug Reporting
 
@@ -89,7 +86,8 @@ MIT — see [LICENSE](LICENSE).
 * Restart policy: `ON_FAILURE` with up to 10 retries
 * Dockerfile-based build
 
-Outerbase Studio listens on `$PORT` directly, so no start command is configured.
+Outerbase Studio ignores `$PORT` and always listens on `8080`; Railway's proxy auto-detects this,
+so no start command is configured.
 
 ## 📚 Resources
 
