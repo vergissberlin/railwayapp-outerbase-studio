@@ -1,0 +1,22 @@
+<svg width="1280" height="270" viewBox="0 0 1280 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Outerbase Studio header banner</title>
+  <desc id="desc">Flat gradient banner for Outerbase Studio template with software logo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1021"/>
+      <stop offset="0.55" stop-color="#131B3F"/>
+      <stop offset="1" stop-color="#1F174A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="270" rx="26" fill="url(#bg)"/>
+  <circle cx="1120" cy="68" r="34" fill="#4F46E5" opacity="0.33"/>
+  <circle cx="1185" cy="205" r="56" fill="#06B6D4" opacity="0.15"/>
+  
+      <rect x="64" y="60" width="152" height="152" rx="24" fill="#0B1228" opacity="0.92"/>
+      <image href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMiAzMyIgZmlsbD0iIzAwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiAwLjQwMDAyNEM3LjE3NjM4IDAuNDAwMDI0IDAgNy41NzMzNSAwIDE2LjM5OTlDMCAyNS4yMTgyIDcuMTc2MzggMzIuNCAxNiAzMi40QzI0LjgyMzUgMzIuNCAzMiAyNS4yMjY3IDMyIDE2LjM5OTlDMzIgNy41NzMzNSAyNC44MjM1IDAuNDAwMDI0IDE2IDAuNDAwMDI0Wk0yMS45NDc2IDI3LjQxNDFMMjEuODY3NCAyNy41MTczQzIxLjAzMDUgMjguNTQyMSAyMC4wMDY2IDI4Ljg3OCAxOS4yOTQyIDI4Ljk3MjdDMTkuMTA3MyAyOC45OTg1IDE4LjkyMDMgMjkuMDA3MiAxOC43MjQ1IDI5LjAwNzJDMTYuNzgzNSAyOS4wMDcyIDE0LjgyNDcgMjcuNjg5NiAxMy4wNjE3IDI1LjE4MzZDMTEuNjI4MiAyMy4xNDI3IDEwLjM4MTcgMjAuNDIxNiA5LjU1MzY4IDE3LjUxOTRDOC4wODQ1NiAxMi4zNDM5IDguMjUzNzMgNy42MjQ5NiA5Ljk4MTA1IDUuNDg5MzhDMTAuODE4IDQuNDY0NTYgMTEuODQxOSA0LjEyODcxIDEyLjU1NDIgNC4wMzQwM0MxNC41NzU0IDMuNzU4MzIgMTYuNjQxIDQuOTM4MTYgMTguNTEwOCA3LjQzNTRDMjAuMDU5OSA5LjUwMjMxIDIxLjM5NTYgMTIuMzUyNyAyMi4yODYxIDE1LjQ3ODVDMjMuNzM3MyAyMC41NzY2IDIzLjU5NDggMjUuMjQ0IDIxLjk0NzYgMjcuNDE0MVoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==" x="84" y="80" width="112" height="112" preserveAspectRatio="xMidYMid meet"/>
+    
+  <text x="258" y="122" fill="#FFFFFF" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="52" font-weight="800">Outerbase Studio</text>
+  <text x="258" y="168" fill="#B6C2FF" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="28" font-weight="500">Railway Template</text>
+  <rect x="258" y="188" width="286" height="44" rx="22" fill="#1C285D" stroke="#67E8F9" stroke-opacity="0.6"/>
+  <text x="284" y="216" fill="#CFFAFE" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="19" font-weight="700">Deploy on Railway</text>
+</svg>

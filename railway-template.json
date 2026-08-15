@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-outerbase-studio",
+  "repo": "vergissberlin/railwayapp-outerbase-studio",
+  "displayName": "Outerbase Studio",
+  "publishedCode": "outerbase-studio",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-outerbase-studio/main/template-header.svg",
+  "description": "Browser-based GUI for Postgres, MySQL, and SQLite databases",
+  "workspaceAutomation": true,
+  "logoFile": "logo-outerbase-studio.svg"
+}
