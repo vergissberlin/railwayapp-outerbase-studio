@@ -5,7 +5,7 @@
   "repo": "vergissberlin/railwayapp-outerbase-studio",
   "displayName": "Outerbase Studio",
   "publishedCode": "outerbase-studio",
-  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-outerbase-studio/main/template-header.svg",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-outerbase-studio/main/logo-outerbase-studio.svg",
   "description": "Browser-based GUI for Postgres, MySQL, and SQLite databases",
   "workspaceAutomation": true,
   "logoFile": "logo-outerbase-studio.svg",
