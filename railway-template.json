@@ -8,5 +8,10 @@
   "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-outerbase-studio/main/template-header.svg",
   "description": "Browser-based GUI for Postgres, MySQL, and SQLite databases",
   "workspaceAutomation": true,
-  "logoFile": "logo-outerbase-studio.svg"
+  "logoFile": "logo-outerbase-studio.svg",
+  "badge": {
+    "label": "Outerbase Studio",
+    "color": "000000",
+    "logo": "outerbase"
+  }
 }
