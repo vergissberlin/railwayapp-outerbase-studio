@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.1](https://github.com/vergissberlin/railwayapp-outerbase-studio/compare/railwayapp-outerbase-studio-v0.2.0...railwayapp-outerbase-studio-v0.2.1) (2026-08-20)
+
+
+### Bug Fixes
+
+* point marketplace image at logo instead of banner ([4e28a83](https://github.com/vergissberlin/railwayapp-outerbase-studio/commit/4e28a834fb28b2436c3e4c5120c19ff2444b993d))
+
+
+### Documentation
+
+* refresh shared template footer badges ([55a5071](https://github.com/vergissberlin/railwayapp-outerbase-studio/commit/55a5071055ccf068ae7d7ee51f82f2be9432dee7))
+
 ## [0.2.0](https://github.com/vergissberlin/railwayapp-outerbase-studio/compare/railwayapp-outerbase-studio-v0.1.0...railwayapp-outerbase-studio-v0.2.0) (2026-08-15)
 
 
