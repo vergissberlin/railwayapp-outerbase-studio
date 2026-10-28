@@ -103,6 +103,10 @@ Found a bug? [Create an issue](https://github.com/vergissberlin/railwayapp-outer
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/outerbase-studio-02ce75fa).
+
 ## 📝 License
 
 MIT — see [LICENSE](LICENSE).
